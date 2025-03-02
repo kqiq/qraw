@@ -555,4 +555,90 @@
   .supportedWallets {
     flex-wrap: wrap;
   }
+}
+
+/* Dark theme overrides */
+[data-theme='dark'] .planCard,
+[data-theme='dark'] .walletLogo,
+[data-theme='dark'] .connectedWallet,
+[data-theme='dark'] .cryptoOption {
+  background-color: #1e1e2e;
+  border-color: rgba(126, 80, 229, 0.2);
+}
+
+[data-theme='dark'] .plansContainer {
+  background-color: #121212;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .planHeader {
+  border-bottom-color: rgba(126, 80, 229, 0.2);
+}
+
+[data-theme='dark'] .planHeader h3,
+[data-theme='dark'] .plansContainer h2,
+[data-theme='dark'] .paymentHeader h1,
+[data-theme='dark'] .paymentFooter h3,
+[data-theme='dark'] .securityNote h4,
+[data-theme='dark'] .paymentSuccess h2 {
+  color: #ffffff;
+}
+
+[data-theme='dark'] .planFeatures li,
+[data-theme='dark'] .paymentHeader p,
+[data-theme='dark'] .securityNote p,
+[data-theme='dark'] .paymentSuccess p,
+[data-theme='dark'] .stepContent p {
+  color: #e0e0e0;
+}
+
+[data-theme='dark'] .selectPlanButton {
+  background-color: #1e1e2e;
+  color: var(--ifm-color-primary-lightest);
+  border-color: var(--ifm-color-primary-lightest);
+}
+
+[data-theme='dark'] .selectPlanButton:hover {
+  background-color: rgba(126, 80, 229, 0.2);
+}
+
+[data-theme='dark'] .cryptoOption:hover {
+  border-color: var(--ifm-color-primary-lightest);
+}
+
+[data-theme='dark'] .cryptoSelected {
+  background-color: rgba(126, 80, 229, 0.2);
+  border-color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-lightest);
+}
+
+[data-theme='dark'] .stepNumber {
+  background-color: #2d2d3d;
+  color: #e0e0e0;
+}
+
+[data-theme='dark'] .paymentSteps::before {
+  background-color: #2d2d3d;
+}
+
+[data-theme='dark'] .securityNote {
+  background-color: #1e1e2e;
+}
+
+[data-theme='dark'] .paymentSuccess {
+  background-color: rgba(76, 217, 11, 0.1);
+  border-color: rgba(76, 217, 11, 0.3);
+}
+
+[data-theme='dark'] .planCard:hover {
+  box-shadow: 0 10px 25px rgba(126, 80, 229, 0.2);
+}
+
+[data-theme='dark'] .walletLogo:hover {
+  box-shadow: 0 8px 20px rgba(126, 80, 229, 0.2);
+}
+
+[data-theme='dark'] .planSelected {
+  border-color: #4CD90B;
+  box-shadow: 0 10px 25px rgba(76, 217, 11, 0.15);
 } 

@@ -68,9 +68,10 @@
   margin-bottom: 1rem;
   color: var(--zyptal-black);
   position: relative;
-  display: inline-block;
-  left: 50%;
-  transform: translateX(-50%);
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 1rem;
 }
 
@@ -78,8 +79,9 @@
   content: '';
   position: absolute;
   bottom: -10px;
-  left: 0;
-  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
   height: 4px;
   background: linear-gradient(90deg, #5E30C5 0%, #4CD90B 100%);
   border-radius: 2px;
@@ -164,7 +166,7 @@
 }
 
 .endpointMethod {
-  display: inline-block;
+  display: block; text-align: center;
   padding: 0.25rem 0.75rem;
   border-radius: 4px;
   font-size: 0.9rem;
@@ -194,7 +196,8 @@
 .codeBlocks {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0;
+  gap: 20px;
+  margin: 0 10px;
 }
 
 @media (max-width: 996px) {
@@ -206,19 +209,29 @@
 .codeBlock {
   background-color: #121212;
   overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(94, 48, 197, 0.2);
+}
+
+.codeBlock:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(94, 48, 197, 0.25);
 }
 
 .codeBlock:first-child {
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: none;
 }
 
 .codeBlock h3 {
   background-color: #5E30C5;
   color: white;
   margin: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 1.5rem;
   font-size: 1.1rem;
   position: relative;
+  border-radius: 12px 12px 0 0;
 }
 
 .codeBlock h3::after {
@@ -236,14 +249,24 @@
   padding: 1.5rem;
   overflow: auto;
   max-height: 300px;
+  background-color: #1e1e1e;
+  border-radius: 0 0 12px 12px;
 }
 
 .codeBlock code {
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  color: white;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #e6e6e6;
 }
+
+/* Syntax highlighting colors */
+.codeBlock code .string { color: #ce9178; }
+.codeBlock code .keyword { color: #569cd6; }
+.codeBlock code .comment { color: #6a9955; }
+.codeBlock code .number { color: #b5cea8; }
+.codeBlock code .operator { color: #d4d4d4; }
+.codeBlock code .punctuation { color: #d4d4d4; }
 
 /* API Features Section */
 .apiFeatures {
@@ -283,8 +306,8 @@
   content: '';
   position: absolute;
   bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  transform: none;
   width: 80px;
   height: 4px;
   background: linear-gradient(90deg, #5E30C5 0%, #4CD90B 100%);
@@ -357,8 +380,8 @@
   content: '';
   position: absolute;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  transform: none;
   width: 40px;
   height: 3px;
   background: linear-gradient(90deg, #5E30C5 0%, #4CD90B 100%);
@@ -382,7 +405,7 @@
   margin-bottom: 1.5rem;
   color: var(--zyptal-black);
   position: relative;
-  display: inline-block;
+  display: block; text-align: center;
   padding-bottom: 1rem;
 }
 
@@ -559,4 +582,13 @@
 
 [data-theme='dark'] .apiFeatures {
   background: linear-gradient(135deg, rgba(18, 18, 16, 0.5) 0%, rgba(94, 48, 197, 0.1) 100%);
+}
+
+[data-theme='dark'] .codeBlock {
+  background-color: #1a1a1a;
+  border: 1px solid rgba(126, 80, 229, 0.3);
+}
+
+[data-theme='dark'] .codeBlock pre {
+  background-color: #121212;
 } 

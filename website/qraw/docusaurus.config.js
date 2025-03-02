@@ -163,16 +163,7 @@ const config = {
           {to: '/pricing', label: 'Pricing', position: 'left'},
           {to: '/api', label: 'API', position: 'left'},
           {to: '/use-cases', label: 'Use Cases', position: 'left'},
-              {
-                label: 'Web3 Payment',
-                to: '/payment',
-              },
           {to: '/payment', label: 'Web3 Payment', position: 'left'},
-          {
-            href: 'https://github.com/zyptal',
-            label: 'GitHub',
-            position: 'right',
-          },
           {
             to: '/login',
             label: 'Login',
