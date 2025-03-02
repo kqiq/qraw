@@ -206,7 +206,7 @@ const config = {
               },
               {
                 label: 'Use Cases',
-              
+                to: '/use-cases',
               },
             ],
           },
