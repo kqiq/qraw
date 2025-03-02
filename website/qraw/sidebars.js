@@ -1,0 +1,3 @@
+// @ts-check
+/** @type {import("@docusaurus/plugin-content-docs").SidebarsConfig} */
+const sidebars = { docsSidebar: [ { type: "category", label: "Getting Started", items: ["intro"] }, { type: "category", label: "Tutorials", items: [ { type: "category", label: "Basics", items: ["tutorial-basics/create-a-document", "tutorial-basics/create-a-blog-post", "tutorial-basics/create-a-page", "tutorial-basics/markdown-features", "tutorial-basics/deploy-your-site", "tutorial-basics/congratulations"] }, { type: "category", label: "Advanced", items: ["tutorial-extras/manage-docs-versions", "tutorial-extras/translate-your-site"] } ] } ] }; export default sidebars;

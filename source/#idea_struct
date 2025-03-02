@@ -1,0 +1,99 @@
+
+# Core Features & Functionality
+
+## 1. Extraction & Processing
+- AI-powered scraping (100 scrapes/min)
+- Raw scraping (1000 scrapes/min)
+- Dynamic content and JS rendering support
+- Advanced parsers for raw content
+- Media parsing (images, files)
+- Natural language prompt-based extraction
+- Unlimited context window handling
+- Multi-format content support (PDF, HTML, Markdown)
+- OCR capabilities for text extraction
+
+## 2. Security & Access Management
+- API key management
+- Rate limiting and tier management
+- Proxy system features:
+  - Proxy pools and rotation
+  - Third-party proxy integration
+  - Anti-bot protection bypass
+  - CAPTCHA handling
+  - Cloudflare bypass
+
+## 3. Interaction Capabilities
+- Pre-extraction actions:
+  - Click, scroll, write
+  - Wait and press functions
+  - Intelligent content loading
+- Session handling:
+  - Cookie management
+  - Authentication support
+  - Multi-factor credentials
+
+## 4. Infrastructure
+- Parallel processing
+- Batch scraping
+- Scheduler system
+- Asynchronous extraction
+- Caching (optional)
+- Decentralized data processing
+
+## 5. Export & Integration
+- Multiple export formats
+- Cloud storage integration (Google Drive, Dropbox)
+- Local disk storage
+- Email support and notifications
+- API endpoints
+- Third-party API access
+
+## 6. User Interface & Monitoring
+- Dashboard
+- Error handling and logging
+- Real-time job monitoring
+- Documentation interface
+- Chrome extension
+
+## 7. Developer Tools
+- SDK support (Python, Node.js, Rust) : for now : npm , pip , composer.. or simple http call through ever tool the user wants.
+- Backward-compatible API
+- Schema definition addons
+- Custom parser support
+
+## 8. Advance caching
+note : this can be done on the server side not on the system itself.
+-semantic caching -> urls
+-hard caching -> urls
+
+# Use Cases
+- LLM-ready data preparation
+- Competitor analysis
+- Social media monitoring
+- Website insights extraction
+- Dataset creation for AI training
+
+# Target Audience
+- Website owners
+- Companies
+- Chrome users
+- LLM application developers
+
+# Suggested Pricing Tiers
+1. Basic/Personal: $27-42/month
+2. Pro/Plus: $83-99/month
+3. Enterprise/Startup: $249/month
+
+# Suggested Domain Names
+- bitquak.com
+- qraw.net/org/ai
+- zipt.ai
+- ambnt.ai
+- scrapit.ai
+- scrape.it.com
+
+another another another
+-strnd.net
+-openquery.net
+-qraw : means query raw
+-rawq.org

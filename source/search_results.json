@@ -1,0 +1,29 @@
+{
+  "yahoo": [],
+  "bing": [
+    "https://mail.yahoo.com/",
+    "https://login.yahoo.com/",
+    "https://overview.mail.yahoo.com/",
+    "https://ne1.www.yahoo.com/",
+    "https://search.yahoo.com/",
+    "https://mail.yahoo.com/login",
+    "https://uk.yahoo.com/",
+    "https://overview.mail.yahoo.com/myyahoo",
+    "https://ca.yahoo.com/",
+    "https://news.yahoo.com/"
+  ],
+  "duckduckgo": [
+    "//duckduckgo.com/l/?uddg=https://www.yahoo.com/&rut=5bd6ed7d08c2fd1cec55e9a77e13db46afb8e2c633e04db6399a54773dc830e5",
+    "//duckduckgo.com/l/?uddg=https://mail.yahoo.com/&rut=6c6d95e30d171a6ffbc316dc0d9168b9b5d4930f7a926de465dfae1b3d289fd0",
+    "//duckduckgo.com/l/?uddg=https://login.yahoo.com/&rut=79bbf6f0c0a020cf15e48adbbb69de9a0740f927d05ad14d12a80e17ea598037",
+    "//duckduckgo.com/l/?uddg=https://news.yahoo.com/&rut=840af9d350655a886e5075ec9a47c105003eb23b0edab31e35c499d75d3e0daf",
+    "//duckduckgo.com/l/?uddg=https://www.yahoo.co.jp/&rut=c727d5f44079ca29539e14dda4a5729d65c7519aae32c91c7e76c0459895b4ee",
+    "//duckduckgo.com/l/?uddg=https://finance.yahoo.com/&rut=926a6a6acf00bf744eed471f9083ab6747e603a92ad5aa25031cbe35260f3d04",
+    "//duckduckgo.com/l/?uddg=https://ca.yahoo.com/&rut=ccd28601fec2b8227fb1337b3f0bceadc31cb9459cd13e312f85d367614f6efb",
+    "//duckduckgo.com/l/?uddg=https://overview.mail.yahoo.com/&rut=4f4457014fad1c76162b3a926bf6063c3c7ea58fc168782e4b4b430936cc1ad7",
+    "//duckduckgo.com/l/?uddg=https://uk.mail.yahoo.com/&rut=92ee6ebad109b5c2b28989f4a10ef1ace34a84ac7562d7901a71eae225cb8182",
+    "//duckduckgo.com/l/?uddg=https://search.yahoo.com/&rut=64f6468c4303b2e1c52577c89f722199e6a2e2112d4bf647be279ff331987155"
+  ],
+  "google": [],
+  "aol": []
+}
